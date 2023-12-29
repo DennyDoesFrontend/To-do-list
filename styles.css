@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+} 
+
+li {
+    background-color: #fff;
+    margin: 10px 0;
+    padding: 5px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-container {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.delete-btn {
+    background-color: salmon;
+    padding: 8px 24px;
+    border: none;
+    color: white; 
+    cursor: pointer;
+}
+
+.edit-btn {
+    background-color: #4CAF50;
+    padding: 8px 24px;
+    border: none;
+    color: white; 
+    cursor: pointer;
+}
+
+.btn-container {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Reset button styles */
+button {
+    border: none;
+    outline: none;
+}
+
+.add-task {
+    background-color: lightskyblue;
+    padding: 8px 24px;
+    border: none;
+    color: black; 
+    cursor: pointer;
+}
+
+input {
+    padding: 6px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid grey;
+}
+
+input:focus {
+    background-color: lightblue;
+}
